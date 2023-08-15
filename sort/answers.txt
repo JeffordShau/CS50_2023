@@ -1,0 +1,25 @@
+sort1 uses: bubble sort
+
+How do you know?: Bubble sort usually takes longer than selection sort because of the number of swaps
+sorted50000 - 0.039s
+reversed50000 - 5.422s
+random50000 - 7.425s
+reversed5000 - 0.078s
+sorted5000 - 0.043s
+
+sort2 uses: merge sort
+
+How do you know?: More efficient algorithm than selection and bubble sort with O(n log n)
+sorted50000 - 0.031s
+reversed50000 - 0.469s
+random50000 - 0.418s
+
+sort3 uses: selection sort
+
+How do you know?: Selection sort's worst and best case are both O(n^2) so its random and reversed run time should be the same
+sorted50000 - 0.070s
+reversed50000 - 3.375s
+random50000 - 3.454s
+reversed5000 - 0.071s
+sorted5000 - 0.0119s
+
